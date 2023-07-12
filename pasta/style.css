@@ -1,0 +1,167 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif ;
+        background: url(imagens/water-gecfea9de2_640.jpg) ;
+        background-size: cover;
+        margin: 20px;
+    }
+
+    #container{
+        margin: 0 auto;
+        min-width: 750px;
+        max-width:1100px ;
+
+    }
+
+    #topo {
+    
+        height: 16em;
+        min-height: 250px;  
+        position: relative;
+    }
+
+    ul#navegacao{
+        list-style: none;
+    }
+
+    ul#navegacao a {
+        text-transform: uppercase;
+        font-size: 1em;
+        padding: 5px;
+        color:rgb(0, 0, 90);
+        line-height: 30px;
+    }
+
+    ul#navegacao a:hover{
+        background: rgb(168, 168, 223);
+    }
+
+    #area-logo{
+         position: absolute;
+        width: 100%;
+        height: 300px   ;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        color:rgb(1, 1, 65) ; 
+        font-family: 'Caprasimo', cursive;
+        font-size: 20px;
+
+    }
+
+    h1{
+    margin-top: -60px;
+    margin-left: 75px;
+    }
+
+
+    #area-menu {
+    
+        width: 450px;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        background: url(imagens/silhouette-gfe40bf7cd_640.png);
+    }
+
+    #conteudo-menu{
+        margin-left: 90px;
+        margin-right: 15px;
+        padding-top: 15px;
+        font-family: 'Caprasimo', cursive;
+        
+
+    }
+
+    #menu-locais {
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        color: rgb(2, 2, 72);
+    }
+
+    #navegacao li a{
+        background: yellow;
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+
+
+    #area-principal{
+        float: left;
+        width: 50%;
+        padding: 15px 0px;
+
+    }
+
+    #area-principal img{
+        margin-left: 140px;
+    }
+
+    #area-principal h3{
+        text-align: center;
+        padding-top: 30px;
+        font-family: 'Caprasimo', cursive;
+        font-size: 20px;
+    }
+
+    #area-principal p{
+    margin-top: 40px;
+    color:#00024b;
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: 'Caprasimo', cursive;
+
+
+    }
+
+    #rodape {
+        clear: both;
+        padding: 16px;
+        background: yellow repeat-x top;
+        color:#000242;
+        font-family: 'Caprasimo', cursive;
+
+    }
+
+
+
+    #area-lateral {
+        float:right;
+        width: 50%;
+        padding: 20px 0px;
+        font-family: 'Caprasimo', cursive;
+        color: #000242;
+    }
+
+    #beneficios li{
+        padding: 8px;
+        border-bottom: 1px solid yellow;
+        height: 6em;
+        list-style: none;
+        
+    }
+
+    #beneficios li a img {
+        float: left;
+        margin-right: 8px;
+        
+    }
+
+    
+    
+
+    
